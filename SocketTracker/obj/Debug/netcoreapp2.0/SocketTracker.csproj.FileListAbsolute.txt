@@ -1,0 +1,13 @@
+/home/jakov/Dev/SocketTracker/SocketTracker/bin/Debug/netcoreapp2.0/SocketTracker.deps.json
+/home/jakov/Dev/SocketTracker/SocketTracker/bin/Debug/netcoreapp2.0/SocketTracker.runtimeconfig.json
+/home/jakov/Dev/SocketTracker/SocketTracker/bin/Debug/netcoreapp2.0/SocketTracker.runtimeconfig.dev.json
+/home/jakov/Dev/SocketTracker/SocketTracker/bin/Debug/netcoreapp2.0/SocketTracker.dll
+/home/jakov/Dev/SocketTracker/SocketTracker/bin/Debug/netcoreapp2.0/SocketTracker.pdb
+/home/jakov/Dev/SocketTracker/SocketTracker/bin/Debug/netcoreapp2.0/Controls.dll
+/home/jakov/Dev/SocketTracker/SocketTracker/bin/Debug/netcoreapp2.0/Controls.pdb
+/home/jakov/Dev/SocketTracker/SocketTracker/obj/Debug/netcoreapp2.0/SocketTracker.csproj.CoreCompileInputs.cache
+/home/jakov/Dev/SocketTracker/SocketTracker/obj/Debug/netcoreapp2.0/SocketTracker.AssemblyInfoInputs.cache
+/home/jakov/Dev/SocketTracker/SocketTracker/obj/Debug/netcoreapp2.0/SocketTracker.AssemblyInfo.cs
+/home/jakov/Dev/SocketTracker/SocketTracker/obj/Debug/netcoreapp2.0/SocketTracker.csproj.CopyComplete
+/home/jakov/Dev/SocketTracker/SocketTracker/obj/Debug/netcoreapp2.0/SocketTracker.dll
+/home/jakov/Dev/SocketTracker/SocketTracker/obj/Debug/netcoreapp2.0/SocketTracker.pdb
