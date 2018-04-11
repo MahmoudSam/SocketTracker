@@ -27,10 +27,10 @@ namespace SocketTracker
                 
                 LoadingDots loading = new LoadingDots("Spamming");
                 loading.Start();
-
-                for(long i = 0; i < Loops; i++)
+                
+                for(long i = 1; i <= Loops; i++)
                 {
-                    for (long b = 0; b < 999999999; b++)
+                    for (long b = 1; b <= 999999999; b++)
                     {
                         try
                         {
@@ -41,7 +41,7 @@ namespace SocketTracker
                         }
                         catch
                         {
-                            Console.WriteLine("Server down, unable to connect... Try again");
+                            Console.WriteLine("Server down, unable to connect... Try again. Did you add http(s)://?");
                             break;
                         }
                     }
@@ -88,9 +88,9 @@ namespace SocketTracker
                 LoadingDots loading = new LoadingDots("Spamming");
                 loading.Start();
             
-                for(long i = 0; i < Loops; i++)
+                for(long i = 1; i <= Loops; i++)
                 {
-                    for (long b = 0; b < 999999999; b++)
+                    for (long b = 1; b <= 999999999; b++)
                     {
                         try
                         {
