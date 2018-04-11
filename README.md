@@ -15,7 +15,7 @@ Use this application just for testing
 
 ### ddos(spamming)
 
-![alt text](https://github.com/JkFrcss/SocketTracker/blob/Media/Spamming.png)
+![alt text](https://github.com/JkFrcss/SocketTracker/blob/master/Media/Spamming.png)
 
 * ddos TcpServer
 * ddos web page 
