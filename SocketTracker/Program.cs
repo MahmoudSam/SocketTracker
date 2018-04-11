@@ -11,7 +11,8 @@ namespace SocketTracker
 
             while(true)
             {
-                Console.WriteLine("Using SimpleControls V0.1(by JkFrcss)");
+                //Console.WriteLine("Using SimpleControls V0.1(by JkFrcss)\n");
+
                 Console.WriteLine("1)Scan ports(127.0.0.1) \n2)Scan whole network \n3)Scan specific ip \n4)Spam(HTTP) \n5)Spam(Socket)");
 
                 int option;

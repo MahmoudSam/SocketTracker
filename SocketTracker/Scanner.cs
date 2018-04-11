@@ -80,7 +80,7 @@ namespace SocketTracker
                         await CheckIsOpenAsync(port);
                         progress.Value = port - MinPort;
                     }
-                    ShowResults();
+
                     await AddResultsToFileAsync();
                 }
             }
@@ -148,7 +148,6 @@ namespace SocketTracker
 
 
             Console.WriteLine("Click enter to see closed ports, or no to cancel");
-
             while(true)
             {
                 if(Console.ReadLine() == "")
