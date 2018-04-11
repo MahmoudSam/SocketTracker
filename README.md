@@ -1,6 +1,6 @@
 # SocketTracker
 Console application made in .net core that is used to perform port scanning and ddos attack.
-Made this project as one day project in few hours so, it's not perfect :).
+Made this as one day project in few hours so, it's not perfect :).
 
 ## Note!
 Use this application just for testing
@@ -8,15 +8,17 @@ Use this application just for testing
 ## Content
 ### Port scanning
 
-![alt text](https://github.com/JkFrcss/SocketTracker/Media/Scanning.png)
+![alt text](https://github.com/JkFrcss/SocketTracker/blob/master/Media/Scanning.png)
 
-⋅⋅* Port scan of specific ip address(127.0.0.1 default) with specific port range
-⋅⋅* Port scan of whole network
+* Port scan of specific ip address(127.0.0.1 default) with specific port range
+* Port scan of whole local network (192.168.1.1 - 192.168.255.255)
 
 ### ddos(spamming)
-⋅⋅* ddos TcpServer
-⋅⋅* ddos web page 
 
+![alt text](https://github.com/JkFrcss/SocketTracker/blob/Media/Spam.png)
+
+* ddos TcpServer
+* ddos web page 
 
 ## Used in this project
-- SimpleControls
+<https://github.com/JkFrcss/SimpleControls>
