@@ -1,0 +1,3 @@
+[submodule "SimpleControls"]
+	path = SimpleControls
+	url = https://github.com/JkFrcss/SimpleControls.git
