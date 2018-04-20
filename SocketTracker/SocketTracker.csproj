@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Controls\Controls.csproj" />
+    <ProjectReference Include="..\SimpleControls\Controls\Controls.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

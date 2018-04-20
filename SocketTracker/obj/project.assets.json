@@ -669,8 +669,8 @@
     },
     "Controls/1.0.0": {
       "type": "project",
-      "path": "../Controls/Controls.csproj",
-      "msbuildProject": "../Controls/Controls.csproj"
+      "path": "../SimpleControls/Controls/Controls.csproj",
+      "msbuildProject": "../SimpleControls/Controls/Controls.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -707,8 +707,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "/home/jakov/Dev/SocketTracker/Controls/Controls.csproj": {
-              "projectPath": "/home/jakov/Dev/SocketTracker/Controls/Controls.csproj"
+            "/home/jakov/Dev/SocketTracker/SimpleControls/Controls/Controls.csproj": {
+              "projectPath": "/home/jakov/Dev/SocketTracker/SimpleControls/Controls/Controls.csproj"
             }
           }
         }

@@ -1,0 +1,6 @@
+V1.0
+-Initial realise
+V1.2
+-Updated SimpleControls to V0.2
+-Added new style
+-Added changelog

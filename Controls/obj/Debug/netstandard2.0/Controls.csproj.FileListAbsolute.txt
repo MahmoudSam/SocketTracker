@@ -1,8 +1,0 @@
-/home/jakov/Dev/SocketTracker/Controls/bin/Debug/netstandard2.0/Controls.deps.json
-/home/jakov/Dev/SocketTracker/Controls/bin/Debug/netstandard2.0/Controls.dll
-/home/jakov/Dev/SocketTracker/Controls/bin/Debug/netstandard2.0/Controls.pdb
-/home/jakov/Dev/SocketTracker/Controls/obj/Debug/netstandard2.0/Controls.csproj.CoreCompileInputs.cache
-/home/jakov/Dev/SocketTracker/Controls/obj/Debug/netstandard2.0/Controls.AssemblyInfoInputs.cache
-/home/jakov/Dev/SocketTracker/Controls/obj/Debug/netstandard2.0/Controls.AssemblyInfo.cs
-/home/jakov/Dev/SocketTracker/Controls/obj/Debug/netstandard2.0/Controls.dll
-/home/jakov/Dev/SocketTracker/Controls/obj/Debug/netstandard2.0/Controls.pdb
