@@ -1,4 +1,7 @@
 # SocketTracker
+
+![alt text](https://github.com/JkFrcss/SocketTracker/blob/master/Media/Preview.png)
+
 Console application made in .net core that is used to perform port scanning and ddos attack.
 Made this as one day project in few hours so, it's not perfect :).
 
