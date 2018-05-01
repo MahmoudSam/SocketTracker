@@ -1,0 +1,17 @@
+SocketTracker made by JkFrcss
+Using SimpleControls(by JkFrcss)
+
+Changelog:
+
+V1.0
+-Initial realise
+V1.2
+-Updated SimpleControls to V0.2
+-Added new style
+-Added changelog
+V1.2
+-Updated SimpleControls
+-Added ListBox menu
+-Using Box for changelog and about
+
+Press enter to continue

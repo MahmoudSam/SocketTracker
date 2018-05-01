@@ -2,6 +2,7 @@
 using System.IO;
 using System.Threading.Tasks;
 using Controls;
+using System.Collections.Generic;
 
 namespace SocketTracker
 {
@@ -11,63 +12,33 @@ namespace SocketTracker
         {
             Console.Clear(); 
 
-            Console.WriteLine("1)Use new style(Controls from new SimpleControls), Unstable!\n2)Use old style");
+            ListBox menu = new ListBox(0, 0, "SocketTracker, made by JkFrcss", Console.BackgroundColor, ConsoleColor.Blue);
+            menu.Source = new List<string>{"Scan ports(127.0.0.1)", "Scan whole network", "Scan specific ip", "Spam(HTTP)", "Spam(Socket)" ,"Changelog"};
+            menu.NumericPosition = true;
+            menu.SeletionChanged += SelectionChanged;
+            menu.Draw();
+            menu.Activate();
+        }
 
-            while(true)
-            {
-                string input = Console.ReadLine();
-                if(input == "1")
-                {
-                    New();
-                    break;
-                }
-                else if(input == "2")
-                {
-                    Clasic();
-                    break;
-                }
-
-            }   
+        static void SelectionChanged(object sender, EventArgs e)
+        {
+            ListBox s = (ListBox)sender;
+            s.DeActivate();
+            ParseSelection(s.Index);
+            Main(null);
         }
 
         public static string Text{get;} = "1)Scan ports(127.0.0.1) \n2)Scan whole network \n3)Scan specific ip \n4)Spam(HTTP) \n5)Spam(Socket) \n6)Changelog\n\nInfo:\nSocketTracker V1.2\nUsing SimpleControls V 0.2(JkFrcss)";
 
-        private static void New()
-        {
-            while(true)
-            {
-                Box box = new Box(0 ,0 ,Console.WindowWidth ,Console.WindowHeight);
-                box.Title = "SocketTracker";
-                box.Text = Text;
-                box.Draw();
-
-                int option;
-                int.TryParse(Console.ReadLine(), out option);
-                ParseSelection(option); 
-            }
-        }
-        private static void Clasic()
-        {
-            while(true)
-            {
-                Console.WriteLine(Text);
-
-                int option;
-                int.TryParse(Console.ReadLine(), out option);
-                ParseSelection(option);  
-            }
-        }
-
-        private void GetInput()
-        {
-            
-        }
-
         private static void ParseSelection(int num)
         {
+            //Need to rewrite this...
+
+            Console.SetCursorPosition(0, 9);
+
             switch(num)
             {
-                case 1:
+                case 0:
                 {
                     int max;
                     int min;
@@ -83,7 +54,7 @@ namespace SocketTracker
 
                     break;
                 }
-                case 2:
+                case 1:
                 {
                     Console.WriteLine("You sure, this will take very long time!");
 
@@ -102,7 +73,7 @@ namespace SocketTracker
                         
                     break;
                 }
-                case 3:
+                case 2:
                 {
                     string ip;
                     int max;
@@ -122,7 +93,7 @@ namespace SocketTracker
 
                     break;
                 }
-                case 4:
+                case 3:
                 {
                     string address;
                     long loop;
@@ -137,7 +108,7 @@ namespace SocketTracker
 
                     break;
                 }
-                case 5:
+                case 4:
                 {
                     
                     string ip;
@@ -156,11 +127,12 @@ namespace SocketTracker
 
                     break;
                 }
-                case 6: 
+                case 5: 
                 {
-                    Console.WriteLine(System.IO.File.ReadAllText(Path.Combine(Directory.GetCurrentDirectory(), "Changelog.txt")));                    
-                    Console.WriteLine("Press enter to continue");
-                    
+                    Box box = new Box(0, 0, Console.WindowWidth, Console.WindowHeight);
+                    box.Text = System.IO.File.ReadAllText(Path.Combine(Directory.GetCurrentDirectory(), "ChangelogAndAbout.txt"));
+                    box.Draw();
+
                     while(true)
                     {
                         if(Console.ReadLine() == "")
